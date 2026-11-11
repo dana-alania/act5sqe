@@ -5,7 +5,7 @@ import App from "./App";
 describe("App Component", () => {
   it("renders correctly", () => {
     render(<App />);
-    const linkElement = screen.getByText(/Vite \+ React/i);
-    expect(linkElement).toBeDefined();
+    const headingElement = screen.getByText(/Get started/i);
+    expect(headingElement).toBeDefined();
   });
 });
